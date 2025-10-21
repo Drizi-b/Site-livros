@@ -101,7 +101,7 @@ div.container.btn {
 }
 .btn-saiba-mais {
   background-color: #ff8000;
-  padding: 15px;
+  padding: 8px;
   border: none;
   border-radius: 5px;
   transition: transform 0.3s;
@@ -116,7 +116,7 @@ div.container.btn {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 /* Modulo Tabela */
@@ -154,16 +154,16 @@ div.lista-locais ul li {
 
 footer.rodape {
   width: 100%;
-  padding: 50px 0;
+  padding: 10px 0;
   background-color: #333;
-  background-image: url(../assets/img/australia/padrao-fundo-rodape.png);
+  background-image: url(../assets/img/padrao-fundo-rodape.png);
   border-top: 6px solid #ff8000;
   text-align: center;
   clear: both;
 }
 
 footer.rodape div.logo {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 footer.rodape div.creditos {
