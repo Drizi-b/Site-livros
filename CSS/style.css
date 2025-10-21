@@ -37,19 +37,6 @@
     font-weight: light;
     font-style: normal;
 }
-@font-face {
-    font-family: "GreatVibes";
-    src: url(../FontesAula10/GreatVibes/GreatVibes-Regular.ttf);
-    font-weight: bolder;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Parisienne";
-    src: url(../FontesAula10/Parisienne/Parisienne-Regular.ttf);
-    font-weight: bolder;
-    font-style: italic;
-}
-
 
 * {
     margin: 0,5rem;
@@ -89,7 +76,7 @@ main.principal div.container-titulo h1 {
     color: #fff;
     text-align: center;
     font-size: 48px;
-    font-family: "Parisienne";
+    text-transform: uppercase;
 }
 div.modulo {
     width: 100%;
@@ -114,7 +101,7 @@ div.container.btn {
 }
 .btn-saiba-mais {
   background-color: #ff8000;
-  padding: 8px;
+  padding: 15px;
   border: none;
   border-radius: 5px;
   transition: transform 0.3s;
@@ -129,7 +116,7 @@ div.container.btn {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 /* Modulo Tabela */
@@ -167,16 +154,16 @@ div.lista-locais ul li {
 
 footer.rodape {
   width: 100%;
-  padding: 10px 0;
+  padding: 50px 0;
   background-color: #333;
-  background-image: url(../assets/img/padrao-fundo-rodape.png);
+  background-image: url(../assets/img/australia/padrao-fundo-rodape.png);
   border-top: 6px solid #ff8000;
   text-align: center;
   clear: both;
 }
 
 footer.rodape div.logo {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 footer.rodape div.creditos {
