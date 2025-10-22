@@ -37,23 +37,35 @@
     font-weight: light;
     font-style: normal;
 }
+@font-face {
+    font-family: "Parisienne";
+    src: url(../Fontes/Parisienne/Parisienne-Regular.ttf);
+    font-weight: light;
+    font-style: normal;
+}
 
-* {
+/* * {
     margin: 0,5rem;
     padding: 0,5rem;
     box-sizing: border-box;
-}
+} */
 body,
 html {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: light;
+    background-color: #be98ed72;
 }
 header.cabecalho div.container {
     display: flex;
     justify-content: space-between;
+  }
+img.livro {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
 }
 div.container {
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 15px;
 }
@@ -69,14 +81,12 @@ nav.menu ul li a {
 }
 main.principal div.container-titulo {
     width: 100%;
-    background-color: #fa883c;
-    padding: 15px;
+    padding: 5px;
 }
-main.principal div.container-titulo h1 {
-    color: #fff;
+h1 {
     text-align: center;
-    font-size: 48px;
-    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "Parisienne";
 }
 div.modulo {
     width: 100%;
@@ -87,18 +97,15 @@ div.sobre {
 }
 h2.subtitulo,
 div.container.btn {
-    font-size: 32px;
+    /* font-size: 32px; */
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-.mapa {
+/* .mapa {
     display: block;
     margin: auto;
-}
-.celebridades {
-    margin: auto;
-}
+} */
 .btn-saiba-mais {
   background-color: #ff8000;
   padding: 15px;
@@ -136,50 +143,49 @@ table.tabela th {
   padding: 7px;
 }
 
-/* Modulo Locais Interesse */
-div.lista-locais ul {
+/* Modulo Categorias */
+div.categorias ul {
   display: flex;
   justify-content: center;
+  list-style: none
 }
 
-div.lista-locais ul li {
-  list-style: none;
+div.categorias ul li a{
   display: inline-block;
   color: #fff;
-  background-color: #ff8000;
+  background-color: #01609C;
   padding: 7px 12px;
   margin: 0 3px;
   border-radius: 5px;
 }
+div.categorias ul li a:hover{
+  transition: transform 0.3s;
+  transform: scale(1.2);
+  filter: brightness(0.95);
+}
 
 footer.rodape {
   width: 100%;
-  padding: 50px 0;
+  padding: 15px 0;
   background-color: #333;
-  background-image: url(../assets/img/australia/padrao-fundo-rodape.png);
-  border-top: 6px solid #ff8000;
   text-align: center;
-  clear: both;
+  /* border-top: 6px solid #ff8000;
+  background-image: url(../assets/img/);
+  clear: both; */
 }
-
-footer.rodape div.logo {
-  margin-bottom: 30px;
-}
-
 footer.rodape div.creditos {
   color: #fff;
 }
-
-div.mapa {
+/* div.mapa {
   width: 100%;
-}
+} */
 
-div.mapa img {
+/* div.mapa img {
   float: left;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-}
+} */
 
 div.notaveis {
   float: left;
@@ -195,7 +201,7 @@ div.notaveis ol {
   transform: translateX(-50%);
 }
 
-/* Pagina Sugestão */
+/* Pagina Pedidos */
 
 div.sugestao-texto {
   text-align: center;
